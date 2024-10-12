@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#participant-list {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: disc;
+}
+
+#participant-list li {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#participant-list-jp {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: disc;
+}
+
+#participant-list-jp li {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.header-text {
+  margin: 0;
+  padding: 0;
+}
+
+#id-disp {
+  visibility: hidden;
+}
+
+#join, #NonMute-btn, #leave {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#join {
+  background: #dba142;
+}
+
+#NonMute-btn {
+  visibility: hidden;
+  background-color: #93ebeb;
+}
+
+#leave {
+  visibility: hidden;
+  background: #fc3f3f;
+}
+
+#join-jp, #NonMute-btn-jp, #leave-jp {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#join-jp {
+  background: #dba142;
+}
+
+#NonMute-btn-jp {
+  visibility: hidden;
+  background-color: #93ebeb;
+}
+
+#leave-jp {
+  visibility: hidden;
+  background: #fc3f3f;
+}
+
+#button-area, #remote-media-area {
+  display: none;
+}
+
+.Id-Key {
+  margin-top: 50vh;
+  position: relative;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
